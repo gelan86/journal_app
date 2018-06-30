@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp"
+    tools:context=".Writejournal">
+
+
+    <TextView
+        android:id="@+id/tv_t"
+        android:layout_width="58dp"
+        android:layout_height="34dp"
+
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:paddingTop="4dp"
+        android:text="@string/title"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textviw"
+        app:layout_constraintTop_toBottomOf="@+id/textviw" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView2"
+        android:layout_width="192dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="296dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edit_title"
+        app:layout_constraintStart_toStartOf="@+id/edit_title"
+        android:hint="@string/hintforthoght"/>
+
+    <Button
+        android:id="@+id/Savebutton"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/save"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintStart_toEndOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintTop_toTopOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/update"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintEnd_toStartOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="@+id/tv_t"
+        app:layout_constraintTop_toTopOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textviw"
+        android:layout_width="57dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/Date"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+       android:hint="@string/interyourtitle"
+        app:layout_constraintStart_toEndOf="@+id/tv_t"
+        app:layout_constraintTop_toBottomOf="@+id/textviw_date" />
+
+    <TextView
+        android:id="@+id/textviw_date"
+        android:layout_width="215dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edit_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textviw"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="79dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/delete"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintEnd_toStartOf="@+id/multiAutoCompleteTextView2"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/updatebutton" />
+</android.support.constraint.ConstraintLayout>
