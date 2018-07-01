@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="JOURNALapp" external.linked.project.path="C:/git/journal_app/JOURNALapp" external.root.project.path="C:/git/journal_app/JOURNALapp" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="C:/git/journal_app/JOURNALapp/build" />
+        <option name="BUILDABLE" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://C:/git/journal_app/JOURNALapp">
+      <excludeFolder url="file://C:/git/journal_app/JOURNALapp/.gradle" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
