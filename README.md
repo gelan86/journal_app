@@ -30,7 +30,6 @@ ANDROID STUDIO with updated gardle and google playservice
  then you can run and see what it looks like 
 
 
-## Running the tests
 
 
 ## Built With
