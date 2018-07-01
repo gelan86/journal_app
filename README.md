@@ -9,7 +9,10 @@ thia project is  a journal app that lets  write down your thoughts and feelings 
 
  you need to have android studio  to test this  project  and have your own firebase real time database 
  the above project is implemented with firebase liveddata and viewmodel and to work it requers internet 
-the class are 
+ 
+ 
+when you clicked onlong click you will able to read in detail the jornal
+when you clicked on list you will able to edit the content of that item
 
 1 Journal.class :- my pojo class-----------------/
 2 FirebaseQueryLiveData.class :- my livedata class where i take a data from firibase ----------------------/
@@ -26,7 +29,7 @@ ANDROID STUDIO with updated gardle and google playservice
 `
 
 ### Installing
- clole this  project in to your  android studio or  download the Zip file and import it manually
+ clone this  project in to your  android studio or  download the Zip file and import it manually
  then you can run and see what it looks like 
 
 
