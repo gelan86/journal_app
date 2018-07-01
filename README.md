@@ -10,7 +10,7 @@ thia project is  a journal app that lets  write down your thoughts and feelings 
  you need to have android studio  to test this  project  and have your own firebase real time database 
  the above project is implemented with firebase liveddata and viewmodel and to work it requers internet 
  
- 
+ after you are Authenticated
 when you clicked onlong click you will able to read in detail the jornal
 when you clicked on list you will able to edit the content of that item
 
@@ -21,6 +21,14 @@ when you clicked on list you will able to edit the content of that item
 5 Writejournal.class:-  this whre i write and edit my journal --------------------------/
 6 ViewJournal.class:- this whre i can see or view my journal ------------------------------------
 7 MainActivity.class:- this my main activity whre i intialaze viewmodel and livedata ----------------------------/
+
+this is after you are authenthicated
+[Screenshot](Screenshot_1530425960.png)
+when you see your journal
+[Screenshot](Screenshot_1530426013.png)
+when you edit your journal
+[Screenshot](Screenshot_1530425987.png)
+
 
 ### Prerequisites
 INTERNET 
