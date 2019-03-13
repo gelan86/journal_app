@@ -54,6 +54,5 @@ Gelan Ahmed Umar
 gelanahmed7@gmail.com
 
 
-## Acknowledgments
-udacity i am very lucky to have this scholarsjip  and  i have lerned a lot of hings with u so i want to say THANK YOU TEAM UDACITY 
+## Acknowledgment
 
